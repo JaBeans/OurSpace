@@ -49,7 +49,7 @@ body.blog {
     overflow-x: auto;
 }
 a {
-    color: #545454;
+    color: #000;
     text-decoration: none;
     transition-duration: .2s;
     -moz-transition-duration: .2s;
@@ -368,11 +368,13 @@ h5 {
     margin: 30px 0 0;
 }
 .logo span {
-    display: none
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .logo img {
     width: auto;
-    height: auto;
+    height: 130px;
 }
 .menu {
     position: fixed;
@@ -913,7 +915,7 @@ a.totop-link {
    #Last Screen
    ========================================================================== */
 .introduction-end {
-    background: url(http://placehold.it/1608x1080/000)no-repeat right top;
+    background: url(../images/endimage.jpg)no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1157,6 +1159,14 @@ iframe, embed, object {
     font-size: 22px;
     line-height: 35px;
 }
+
+
+
+#tg-costs {border: 1px solid #e5e5e5;}
+
+#tg-costs tr {border: 1px solid #e5e5e5;}
+
+#tg-costs td {border: 1px solid #e5e5e5; padding: 10px 15px; background-color: #fff;}
 
 
 /* ==========================================================================
