@@ -1449,14 +1449,14 @@ if (typeof Object.create !== "function") {
         singleItem : false,
         itemsScaleUp : false,
 
-        slideSpeed : 200,
-        paginationSpeed : 800,
-        rewindSpeed : 1000,
+        slideSpeed : 20,
+        paginationSpeed : 80,
+        rewindSpeed : 100,
 
-        autoPlay : false,
+        autoPlay : true,
         stopOnHover : false,
 
-        navigation : false,
+        navigation : true,
         navigationText : ["prev", "next"],
         rewindNav : true,
         scrollPerPage : false,
